@@ -40,3 +40,8 @@ Feel free to open issues, provide code improvements or updates to the documentat
 
 The script is licensed under the MIT license and provided as-is.
 
+## Changelog
+
+### 1.0.0
+
+Initial version
