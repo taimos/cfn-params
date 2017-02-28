@@ -10,6 +10,10 @@ To install cfn-params open a terminal and issue: `npm install -g cfn-params`
 
 To convert a parameter YAMl file type `cfn-params <yaml-file>` in a shell.
 
+You can include this directly into your cli command:
+
+`$ aws cloudformation create-stack --stack-name stack --template-body file://template.yaml --parameters $(cfn-params params.yaml)`
+
 ### deploy option
 
 When specifying the command line option `--deploy` the output format is suitable for the new `aws cloudforamtion deploy` command.
