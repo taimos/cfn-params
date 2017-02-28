@@ -1,0 +1,25 @@
+{
+  "name": "cfn-params",
+  "version": "1.0.0",
+  "description": "Create CloudFormation parameters from YAML file",
+  "bin": {
+    "cfn-params": "index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/taimos/cfn-params.git"
+  },
+  "keywords": [
+    "aws"
+  ],
+  "author": "Taimos GmbH",
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "yamljs": "^0.2.8"
+  }
+}
