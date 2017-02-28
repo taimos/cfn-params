@@ -8,6 +8,11 @@ const argv = require('minimist')(process.argv.slice(2));
 const fileName = argv._[0];
 const deployStyle = argv.deploy || false;
 
+if (!fileName) {
+  console.error('Missing filename');
+  process.exit(1);
+}
+
 const YAML = require('yamljs');
 
 let params = YAML.load(fileName);

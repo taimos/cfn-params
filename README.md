@@ -46,6 +46,9 @@ The script is licensed under the MIT license and provided as-is.
 
 ## Changelog
 
+### 1.1.0 (master)
+* add error handling for missing filename argument
+
 ### 1.0.0
 
 Initial version
